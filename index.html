@@ -11,13 +11,14 @@
     <h2>For all your incorporated company needs</h2>
 
     <!-- First, create a form tag where our inputs will be nested -->
-
+    <form action="http://example.com/process-user.php" method="GET">
 
       <!-- Add a label for 'fullname'-->
+      <label for="fullname">Please enter your full name</label>
 
       <!-- Add a text input with the id and name attributes set to 'fullname' -->
       <!-- Include the place holder text "Enter Name" and make this input required -->
-
+      <input id="fullname" type="text" name="fullname" placeholder="Enter Name" required>
 
       <!-- Add a label for 'email'-->
 
@@ -43,6 +44,6 @@
 
       <!-- Add an input with the type set to 'submit' -->
 
-    
+    </form>
   </body>
 </html>
